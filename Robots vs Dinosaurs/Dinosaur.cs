@@ -7,11 +7,27 @@ using System.Threading.Tasks;
 namespace Robots_vs_Dinosaurs
 {
     public string dinoType;
-    public int dinohealth;
+    public int dinoHealth;
+    public string dinoEnergy;
     public string dinoAttackPower;
+    
 }
 {
-public 
+public void dino()
 }
+    dinoType = "tRex";
+    dinoHealth = 100;
+    dinoEnergy = full;
+    dinoAttackPower = "mode";
+
+}
+
+
+
+
+
+
+
+    
    
   

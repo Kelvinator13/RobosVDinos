@@ -8,6 +8,7 @@ namespace Robots_vs_Dinosaurs
 {
     class Herd
     {
-        string robotType();
-    }{}
+        string dinosaurType;
+
+    
 }

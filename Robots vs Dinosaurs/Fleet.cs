@@ -11,12 +11,23 @@ namespace Robots_vs_Dinosaurs
         public roboName(string roboCall)
         {
             roboName = terminator;
-            robohealth = 
+            roboHealth = 100;
+            roboPowerLevel = 100;
         
         }
+        public void weaponUtilization() 
+        {
         
-     
-      
+
+
+        }
+        public void healthRefuel() 
+        {
+        
+        
+        
+        }
+        public void roboArmour()
 
         
 
