@@ -10,5 +10,10 @@ namespace Robots_vs_Dinosaurs
     {
         string dinosaurType;
 
+        public void CreateDino()
+        {
+            dinoType = "tRex";
+        }
+
     
 }

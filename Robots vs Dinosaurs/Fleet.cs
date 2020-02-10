@@ -8,15 +8,22 @@ namespace Robots_vs_Dinosaurs
 {
     class Fleet
     {
-        public roboName(string roboCall)
+        public void roboName(string roboCall)
         {
             roboName = terminator;
             roboHealth = 100;
             roboPowerLevel = 100;
         
         }
-        public void weaponUtilization() 
+        public List<string> robots = new list<string>();
+        robots.Add("terminator");
+        robots.Add("cyborg");
+        robots.Add("android");
+        
         {
+
+        }
+   
         
 
 
