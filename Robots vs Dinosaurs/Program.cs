@@ -8,9 +8,10 @@ namespace Robots_vs_Dinosaurs
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-
+            Battlefield newBattlefield = new Battlefield();
+            newBattlefield.RunGame(); 
         }
     }
 }

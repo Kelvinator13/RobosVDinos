@@ -14,40 +14,19 @@ namespace Robots_vs_Dinosaurs
         public int roboWeapon;
         public string roboWeaponType;
 
-    }
-    public Robots(string roboName, int roboHealth, int roboPowerLevel, int roboWeapon, string roboWeaponType, int roboAttackPower)
-    {
-        this.roboName = roboName;
-        this.roboHealth = roboHealth;
-        this.roboPowerLevel = roboPowerLevel;
-        this.roboWeapon = roboWeapon;
-        this.roboWeaponType = roboWeaponType;
-
+    
+        public Robots(string roboName, int roboHealth, int roboPowerLevel, int roboWeapon, string roboWeaponType, int roboAttackPower)
         {
-            public void Cyborg()
-            {
-                roboName = "terminator";
-                {
-                    public void Life()
-                    {
-                        roboHealth -= 100;
-                    }
-                    public void Lives()
-                    {
-                        roboPowerLevel -= 10;
-                    }
+            this.roboName = roboName;
+            this.roboHealth = roboHealth;
+            this.roboPowerLevel = roboPowerLevel;
+            this.roboWeapon = roboWeapon;
+            this.roboWeaponType = roboWeaponType;
+        }
+        
 
-                    public void Cannons()
-                    {
-                        roboWeapon = "blaster";
-                    }
-                    public void Cannontype()
-                    {
-                        roboWeaponType = "bazooka";
-                    }
-                }
-
-
+    } 
+}
 
 
 
